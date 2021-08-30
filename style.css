@@ -1,0 +1,105 @@
+
+.d-flex{
+  display:flex;
+  flex-wrap: wrap;
+  width: 100%;
+      justify-content: flex-end;
+}
+
+.logo{
+  display: flex;
+  width: 30%;
+  height: 100%;
+}
+
+.logo img{
+  display: block;
+  width:160px;
+  height:auto;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 80px;
+}
+
+
+.img-products{
+  width:35%;
+  height:400px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-products p{
+  color: white;
+  margin:10px;
+
+}
+
+.img-products button{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width:120px;
+  font-size: 14;
+  font-weight: 700;
+  background-color:black;
+  color:white;
+  font-size:14px;
+  padding: 10px;
+
+}
+
+
+.product-1{
+  background-image: url('./img/KWM-Home01.jpg');
+  background-size: cover;
+}
+
+.product-2{
+  background-image: url('./img/KWM-Home02.jpg');
+  background-size: cover;
+}
+.product-3{
+  background-image: url('./img/KWM-Home03.jpg');
+  background-size: cover;
+}
+
+.product-4{
+  background-image: url('./img/KWM-Home04.jpg');
+  background-size: cover;
+}
+
+
+
+a{
+  text-decoration: none !important;
+}
+
+body{
+  margin: 0;
+  font-family: helvetica;
+}
+
+img{
+  max-width: 100%;
+  min-height: 100%;
+  height: auto;
+}
+
+@media (max-width: 950px) { 
+   .d-flex{
+     flex-direction: column;
+     justify-items: center;
+     align-items: center;
+   }
+   .logo{
+     display:none;
+   }
+   
+
+   .img-products{
+     width: 100%;
+   }
+}
